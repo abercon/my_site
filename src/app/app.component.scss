@@ -1,4 +1,8 @@
 div {
-    max-width: 1000px;
+    max-width: 60%;
     margin: auto;
+
+    @media screen and (max-width: 1600px){
+        max-width: 1000px
+    }
 }

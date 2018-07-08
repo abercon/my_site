@@ -5,4 +5,9 @@ div {
     border-radius: 100%;
     border: 1px solid black;
     background: url("../../../../assets/cat.jpeg") no-repeat;
+
+    @media screen and (max-width: 452px) {
+        height: 175px;
+        width: 175px;
+    }
 }
