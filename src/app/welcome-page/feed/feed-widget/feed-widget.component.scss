@@ -1,0 +1,50 @@
+@import "../../../../styles.scss";
+
+div.widget-container {
+    display: flex;
+    border: solid 3px $darkest;
+    height: 250px;
+    margin: 20px;
+    background: $grey1;
+    padding: 50px 90px 50px 110px;
+}
+
+.text-container {
+    flex: 8 0;
+}
+
+img {
+    flex: 1 0 150;
+    border: 1px solid $darkest;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+span {
+    border-radius: 25px;
+    border: 3px solid $darkest;
+}
+
+.img-divide {
+    margin: 0 50px 0 110px
+}
+
+.title-divide {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+h3 {
+    display: block;
+    margin: auto;
+}
+
+h4 {
+    display: block;
+}
+
+p {
+    border: 2px solid blue;
+}
