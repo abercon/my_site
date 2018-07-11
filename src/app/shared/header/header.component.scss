@@ -7,6 +7,7 @@ div {
     width:100%;
     height: 70px;
     background: $darkest;
+    z-index: 2;
 
     color: $grey1;
     font-size: 42px;
@@ -15,9 +16,14 @@ div {
     line-height: 60px;
     padding: 10px 10px 10px 27px;
 
-    @media screen and (max-width: 415px) {
-        height: 120px;
+    @media screen and (max-width: 964px) {
         text-align: center;
         line-height: 60px;
+        padding-left: 0px;
+    }
+
+    @media screen and (max-width: 415px) {
+        position: static;
+        height: 120px;
     }
 }
