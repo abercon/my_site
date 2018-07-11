@@ -14,9 +14,11 @@ import { ProfileComponent } from './welcome-page/profile/profile.component';
 import { FeedComponent } from './welcome-page/feed/feed.component';
 import { PortraitComponent } from './welcome-page/profile/portrait/portrait.component';
 import { BioComponent } from './welcome-page/profile/bio/bio.component';
+import { FeedBodyComponent} from './welcome-page/feed/feed-body/feed-body.component';
 import { FeedNavComponent } from './welcome-page/feed/feed-nav/feed-nav.component';
 import { FeedNavSearchComponent } from './welcome-page/feed/feed-nav/feed-nav-search/feed-nav-search.component';
 import { FeedNavFilterComponent } from './welcome-page/feed/feed-nav/feed-nav-filter/feed-nav-filter.component';
+import { FeedWidgetComponent } from './welcome-page/feed/feed-widget/feed-widget.component'
 import { HeaderComponent } from './shared/header/header.component';
 
 @NgModule({
@@ -28,9 +30,11 @@ import { HeaderComponent } from './shared/header/header.component';
     FeedComponent,
     PortraitComponent,
     BioComponent,
+    FeedBodyComponent,
     FeedNavComponent,
     FeedNavSearchComponent,
     FeedNavFilterComponent,
+    FeedWidgetComponent,
     HeaderComponent,
   ],
   imports: [
