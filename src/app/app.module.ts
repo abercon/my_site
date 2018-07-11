@@ -18,6 +18,8 @@ import { FeedNavComponent } from './welcome-page/feed/feed-nav/feed-nav.componen
 import { FeedNavSearchComponent } from './welcome-page/feed/feed-nav/feed-nav-search/feed-nav-search.component';
 import { FeedNavFilterComponent } from './welcome-page/feed/feed-nav/feed-nav-filter/feed-nav-filter.component';
 import { HeaderComponent } from './shared/header/header.component';
+import { FeedWidgetComponent } from './welcome-page/feed/feed-widget/feed-widget.component';
+import { FeedBodyComponent } from './welcome-page/feed/feed-body/feed-body.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +34,8 @@ import { HeaderComponent } from './shared/header/header.component';
     FeedNavSearchComponent,
     FeedNavFilterComponent,
     HeaderComponent,
+    FeedWidgetComponent,
+    FeedBodyComponent,
   ],
   imports: [
     BrowserModule,
