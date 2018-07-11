@@ -1,6 +1,14 @@
 @import "../../../styles.scss";
 
 div {
-    padding: 50px;
+    padding: 185px 30px 100px 30px;
     background-color: $grey1;
+
+    @media screen and (max-width: 450px) {
+        padding: 135px 0px 50px 0px;
+    }
+
+    @media screen and (max-width: 415px) {
+        padding: 195px 0px 50px 0px;
+    }
 }

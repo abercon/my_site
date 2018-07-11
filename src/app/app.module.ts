@@ -17,6 +17,7 @@ import { BioComponent } from './welcome-page/profile/bio/bio.component';
 import { FeedNavComponent } from './welcome-page/feed/feed-nav/feed-nav.component';
 import { FeedNavSearchComponent } from './welcome-page/feed/feed-nav/feed-nav-search/feed-nav-search.component';
 import { FeedNavFilterComponent } from './welcome-page/feed/feed-nav/feed-nav-filter/feed-nav-filter.component';
+import { HeaderComponent } from './shared/header/header.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { FeedNavFilterComponent } from './welcome-page/feed/feed-nav/feed-nav-fi
     FeedNavComponent,
     FeedNavSearchComponent,
     FeedNavFilterComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,

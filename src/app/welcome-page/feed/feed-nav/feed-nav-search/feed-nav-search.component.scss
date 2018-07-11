@@ -1,6 +1,17 @@
-input {
-    width: 180.5px;
-    height: 32px;
-    margin: 0 15px 0 0px;
+@import "../../../../../styles.scss";
 
+input {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: 3px solid $darkest;
+    padding-left: 12px;
+    height: 35px;
+    border-radius: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    box-shadow: 1px 1px 2px #3c3c3c inset;
+
+    &:focus {
+        border: 3px solid rgb(103, 103, 168);
+    }
 }

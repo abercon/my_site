@@ -1,6 +1,62 @@
-select {
-    width: 200px;
-    height: 46.5px;
-    margin: 0 30px 0 0px;
+@import "../../../../../styles.scss";
 
+div {
+    margin-right: 25px;
+    position: relative;
+
+    @media screen and (max-width: 630px){
+        margin: 25px 0px 25px 0px;
+    }
+}
+
+svg {
+    position: absolute;
+    right: 18px;
+    bottom: 15px;
+    z-index: 1;
+}
+
+select {
+
+    // Custom CSS
+    display: inline-block;
+    width: 170px;
+    height: 42px;
+
+    border-top: 3px solid $darkest;
+    border-bottom: 3px solid $darkest;
+    border-right: 3px solid $darkest;
+    border-radius: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+
+    &:hover {
+        border-top: 3px solid lighten($color: $darkest, $amount: 20);
+        border-bottom: 3px solid lighten($color: $darkest, $amount: 20);
+        border-right: 3px solid lighten($color: $darkest, $amount: 20);
+    };
+
+    // Removing presets:
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    ::-ms-expand {
+        display: none;
+    }
+
+    select:-moz-focusring {
+        color: transparent;
+        text-shadow: 0 0 0 #000;
+    }
+}
+
+p {
+    display: inline;
+    padding: 10px 9px 9px 9px;
+    border-top: 3px solid $darkest;
+    border-bottom: 3px solid $darkest;
+    border-left: 3px solid $darkest;
+    border-right: 1px groove $grey1;
+    border-radius: 3px;
+    background: $grey1;
 }

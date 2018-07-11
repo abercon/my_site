@@ -4,13 +4,32 @@ div {
     display: flex;
     flex-wrap: wrap;
     background-color: $lav1;
-    padding: 15px
+    padding: 25px 25px 25px 25px;
+    border-bottom: 1px solid $darkest;
+    height: 40px;
+
+    @media screen and (max-width: 964px) {
+        height: 105px;
+        justify-content: center;
+    }
+
+    @media screen and (max-width: 610px) {
+        height: 175px;
+    }
 }
 
 h2 {
-    flex: 1 1;
+    flex: 1 0 300px;
     margin: 0;
+    padding: 5px 0 0 0;
     color: $grey1;
-    font-size: 40px;
+    font-weight: 300;
+    font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+
+    @media screen and (max-width: 964px) {
+        flex: 1 0 100%;
+        text-align: center;
+    }
 }
