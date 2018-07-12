@@ -20,7 +20,7 @@ import { FeedNavSearchComponent } from './welcome-page/feed/feed-nav/feed-nav-se
 import { FeedNavFilterComponent } from './welcome-page/feed/feed-nav/feed-nav-filter/feed-nav-filter.component';
 import { FeedWidgetComponent } from './welcome-page/feed/feed-widget/feed-widget.component'
 import { HeaderComponent } from './shared/header/header.component';
-import { FeedNavExpandComponent } from './welcome-page/feed/feed-nav-expand/feed-nav-expand.component';import { FeedBodyComponent } from './welcome-page/feed/feed-body/feed-body.component';
+import { FeedNavExpandComponent } from './welcome-page/feed/feed-nav-expand/feed-nav-expand.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +33,7 @@ import { FeedNavExpandComponent } from './welcome-page/feed/feed-nav-expand/feed
     BioComponent,
     FeedBodyComponent,
     FeedNavComponent,
+    FeedNavExpandComponent,
     FeedNavSearchComponent,
     FeedNavFilterComponent,
     FeedWidgetComponent,
