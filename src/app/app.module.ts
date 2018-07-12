@@ -20,6 +20,7 @@ import { FeedNavSearchComponent } from './welcome-page/feed/feed-nav/feed-nav-se
 import { FeedNavFilterComponent } from './welcome-page/feed/feed-nav/feed-nav-filter/feed-nav-filter.component';
 import { FeedWidgetComponent } from './welcome-page/feed/feed-widget/feed-widget.component'
 import { HeaderComponent } from './shared/header/header.component';
+import { FeedNavExpandComponent } from './welcome-page/feed/feed-nav-expand/feed-nav-expand.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { HeaderComponent } from './shared/header/header.component';
     FeedNavFilterComponent,
     FeedWidgetComponent,
     HeaderComponent,
+    FeedNavExpandComponent,
   ],
   imports: [
     BrowserModule,

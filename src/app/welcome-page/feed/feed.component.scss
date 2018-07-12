@@ -4,4 +4,13 @@ div {
     height: 950px;
     background-color: $lav1;
 
+    @media screen and (max-width: 1000px) {
+        height: 670px;
+        padding: 0 20px 0 20px;
+    }
+
+    @media screen and (max-width: 378px) {
+        padding: 0px;
+    }
+
 }
