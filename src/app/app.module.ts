@@ -21,6 +21,7 @@ import { FeedNavFilterComponent } from './welcome-page/feed/feed-nav/feed-nav-fi
 import { FeedWidgetComponent } from './welcome-page/feed/feed-widget/feed-widget.component'
 import { HeaderComponent } from './shared/header/header.component';
 import { FeedShowMoreComponent } from './welcome-page/feed/feed-body/feed-show-more/feed-show-more.component';
+import { FeedExpandComponent } from './welcome-page/feed/feed-expand/feed-expand.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { FeedShowMoreComponent } from './welcome-page/feed/feed-body/feed-show-m
     FeedWidgetComponent,
     FeedBodyComponent,
     FeedShowMoreComponent,
+    FeedExpandComponent,
   ],
   imports: [
     BrowserModule,
