@@ -16,6 +16,11 @@ div.widget-container {
     @media screen and (max-width: 500px) {
         height: 150px;
     }
+
+    &:hover {
+        transform: translate(0, 1px);
+        cursor: pointer;
+    }
 }
 
 .text-container {
